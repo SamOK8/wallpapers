@@ -2,45 +2,99 @@
 <html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
+    <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css">
+    <link type="text/css" rel="stylesheet" href="css/font-awesome.min.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
     <link type="text/css" rel="stylesheet" href="style.css">
-    <title> Nature Wallpapers</title>
+    <script>
+        function downloadFile(filePath) {
+            var link = document.createElement('a');
+            link.href = filePath;
+            link.download = filePath.substr(filePath.lastIndexOf('/') + 1);
+            link.click();
+        }
+    </script>
+    <title>Wallpapers</title>
 </head>
 <body>
 <h1>Wallpapers</h1>
 
-<div class="in-line-wp">
-    <a class="forest" href="forest.jpeg">
-        <img width="500" src="forest.jpeg" alt="forest">
-    </a>
-    <a class="forest2" href="forest2.jpeg">
-        <img width="500" src="forest2.jpeg" alt="forest">
-    </a>
+<div class="row">
+    <div class="col">
+        <a class="forest" href="forest.jpg">
+            <img width="500" src="forestp.jpeg" alt="forest">
+        </a>
+        <br>
+        <button class="button" type="submit" onclick="downloadFile('forest.jpg')"><i class="fa fa-download"></i> Download</button>
+    </div>
+    <div class="col">
+        <a class="forest2" href="forest2.jpeg">
+            <img width="500" height="281" src="forest2p.jpeg" alt="forest">
+        </a>
+        <br>
+        <button class="button" type="submit" onclick="downloadFile('forest2.jpg')"><i class="fa fa-download"></i> Download</button>
+    </div>
 </div>
 
-<div>
+<div class="row">
+    <div class="col">
     <a class="forest3" href="forest3.jpeg">
-        <img width="500" src="forest3.jpeg">
+        <img width="500" src="forest3p.jpeg" alt="forest">
     </a>
+        <br>
+        <button class="button" type="submit" onclick="downloadFile('forest3.jpg')"><i class="fa fa-download"></i> Download</button>
+    </div>
+    <div class="col">
     <a class="forest4" href="forest4.jpeg">
-        <img width="500" src="forest4.jpeg">
+        <img width="500" src="forest4p.jpeg" alt="forest">
     </a>
+        <br>
+        <button class="button" type="submit" onclick="downloadFile('forest4.jpg')"><i class="fa fa-download"></i> Download</button>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col">
+    <a class="lake" href="lake.jpeg">
+        <img width="500" height="281" src="lakep.jpeg" alt="lake">
+    </a>
+        <br>
+        <button class="button" type="submit" onclick="downloadFile('lake.jpg')"><i class="fa fa-download"></i> Download</button>
+    </div>
+    <div class="col">
+    <a class="lake2" href="lake2.jpeg">
+        <img width="500" height="281" src="lake2p.jpeg" alt="lake">
+    </a>
+        <br>
+        <button class="button" type="submit" onclick="downloadFile('lake2.jpg')"><i class="fa fa-download"></i> Download</button>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col">
+    <a class="lake3" href="lake3.jpeg">
+        <img width="500" src="lake3p.jpeg" alt="lake">
+    </a>
+        <br>
+        <button class="button" type="submit" onclick="downloadFile('lake3.jpg')"><i class="fa fa-download"></i> Download</button>
+    </div>
+    <div class="col">
+    <a class="lake4" href="lake4.jpeg">
+        <img width="500" src="lake4p.jpeg" alt="lake">
+    </a>
+        <br>
+        <button class="button" type="submit" onclick="downloadFile('lake4.jpg')"><i class="fa fa-download"></i> Download</button>
+    </div>
 </div>
 
 <div>
-    <a class="lake" href="lake.jpeg">
-        <img width="500" src="lake.jpeg" alt="lake">
-    </a>
-    <a class="lake2" href="lake2.jpeg">
-        <img width="500" src="lake2.jpeg" alt="lake">
-    </a>
-</div>
-
-<div class="in-line-wp2">
     <a class="mountain" href="mountain.jpeg">
-    <img width="500" src="mountain.jpeg" alt="mountain">
+        <img width="500" src="mountainp.jpeg" alt="mountain">
     </a>
     <a class="mountaun2" href="mountain2.jpeg">
-    <img width="500" src="mountain2.jpeg" alt="mountain">
+        <img width="500" src="mountain2p.jpeg" alt="mountain">
     </a>
 </div>
 
