@@ -5,7 +5,7 @@
 }
 
 .button {
-    background-color: darkgreen;
+    background-color:darkgreen;
     border: none;
     color: white;
     padding: 12px 30px;
@@ -14,7 +14,7 @@
 }
 
 .button:hover {
-    background-color: green;
+    background-color:green ;
 }
 
 .row {
@@ -28,7 +28,7 @@
 .col .button {
     position: absolute;
     top: 254px;
-    left: 85px;
+    left: 39px;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
 }
